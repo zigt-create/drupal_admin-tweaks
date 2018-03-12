@@ -1,5 +1,5 @@
-name: Erasmus+ admin Module
-description: Add css to admin panel
+name: Kees-TM Admin CSS & JS tweaks
+description: Adds CSS and JS tweaks to admin panel
 package: Custom
 
 type: module
