@@ -1,0 +1,10 @@
+<?php
+
+function erasmus_admin_page_attachments(array &$attachments) {
+    $is_admin = \Drupal::service('router.admin_context')->isAdminRoute();
+    if ($is_admin) {
+      $attachments['#attached']['library'][] = 'erasmus_admin/admin-css';
+      return;
+    }
+
+}

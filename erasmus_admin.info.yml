@@ -1,0 +1,6 @@
+name: Erasmus+ admin Module
+description: Add css to admin panel
+package: Custom
+
+type: module
+core: 8.x

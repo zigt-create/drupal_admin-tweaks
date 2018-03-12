@@ -1,0 +1,4 @@
+div.imce-filefield-parent input[type="file"]{
+    display: none;
+    visibility: hidden;
+}

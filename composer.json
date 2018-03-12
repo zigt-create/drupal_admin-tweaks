@@ -1,0 +1,13 @@
+{
+    "name": "keestm/erasmus_admin",
+    "description": "Add css to admin panel",
+    "type": "drupal-module",
+    "authors": [
+        {
+            "name": "Tom",
+            "role": "maintainer"
+        }
+    ],
+    "license": "GPL-2.0+",
+    "minimum-stability": "dev"
+}
