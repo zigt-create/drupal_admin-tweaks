@@ -1,5 +1,7 @@
-admin-css:
-  version: 1.x
-  css:
-    theme:
-      css/admin.css: {}
+admin-assets:
+    version: 1.x
+    css:
+        theme:
+            assets/admin.css: {}
+    js:
+        assets/admin.js: {}
