@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * Implement hook_page_attachments
+ * 
+ * This function will attach a stylesheet to all admin pages.
+ *
+ * @param array $attachments
+ * @return void
+ */
 function admin_tweaks_page_attachments(array &$attachments) {
     $is_admin = \Drupal::service('router.admin_context')->isAdminRoute();
     if ($is_admin) {
