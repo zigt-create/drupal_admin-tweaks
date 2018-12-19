@@ -1,13 +1,11 @@
 {
     "name": "keestm/admin_tweaks",
-    "description": "Add css and js to admin panel",
+    "description": "Adds some tweaks we use as KeesTM to your Drupal site",
     "type": "drupal-module",
-    "authors": [
-        {
-            "name": "Tom",
-            "role": "maintainer"
-        }
-    ],
+    "authors": [{
+        "name": "Tom",
+        "role": "maintainer"
+    }],
     "license": "MIT",
     "minimum-stability": "dev"
 }
