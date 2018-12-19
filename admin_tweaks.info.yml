@@ -1,5 +1,5 @@
-name: Kees-TM Admin CSS & JS tweaks
-description: Adds CSS and JS tweaks to admin panel
+name: KeesTM Admin tweaks
+description: Adds some tweaks we use as KeesTM to your Drupal site
 package: Kees-TM
 
 type: module
