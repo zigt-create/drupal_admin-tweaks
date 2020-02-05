@@ -17,15 +17,19 @@ class ThemeNegotiator implements ThemeNegotiatorInterface
     {
         // Use this theme on a certain route.
         // return $route_match->getRouteName() == 'example_route_name';
-        
+
         // Or use this for more than one route:
         $possible_routes = array(
             'user.login',
-            'user.pass'
+            'user.pass',
+            'user.register',
+            'user.reset',
+            'user.reset.login',
+            'user.reset.form',
         );
         return (in_array($route_match->getRouteName(), $possible_routes));
     }
-  
+
     /**
      * {@inheritdoc}
      */
