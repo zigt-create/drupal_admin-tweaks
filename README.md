@@ -1,4 +1,4 @@
-# Kees-TM Admin CSS & JS tweaks
+# Est Digital Admin tweaks
 
 Admin tweaks is a Drupal 8 module.
 This module will:
@@ -11,7 +11,7 @@ This module will:
 
 **On a drupal 8 project:**
 
-***composer require keestm/admin_tweaks***
+***composer require estdigital/admin_tweaks***
 ___
 
 ## Usage
@@ -22,7 +22,7 @@ TODO: Write usage instructions
 
 MIT License
 
-Copyright &copy; 2018 Kees™ Internetbureau
+Copyright &copy; 2018 Est Digital Internetbureau
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
