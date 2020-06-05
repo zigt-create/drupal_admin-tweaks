@@ -1,9 +1,9 @@
 {
-    "name": "keestm/admin_tweaks",
-    "description": "Adds some tweaks we use as KeesTM to your Drupal site",
+    "name": "estdigital/admin_tweaks",
+    "description": "Adds some changes to the Drupal admin pages",
     "type": "drupal-module",
     "authors": [{
-        "name": "Tom",
+        "name": "Est Digital",
         "role": "maintainer"
     }],
     "license": "MIT",
