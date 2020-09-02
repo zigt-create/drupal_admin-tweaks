@@ -32,6 +32,18 @@ function admin_tweaks_page_attachments(array &$attachments) {
     $is_admin = \Drupal::service('router.admin_context')->isAdminRoute();
     if ($is_admin) {
       $attachments['#attached']['library'][] = 'admin_tweaks/admin-assets';
-      return;
     }
+}
+
+/**
+ * Implements hook_preprocess_page().
+ * 
+ * This function will be run on page load
+ * to check if the page is loaded by preview.
+ */
+function admin_tweaks_preprocess_page(&$vars) {
+  $route_name = \Drupal::routeMatch()->getRouteName();
+  if ($route_name == 'entity.node.preview') {
+    $vars['#attached']['library'][] = 'admin_tweaks/preview-assets';
+  }
 }
