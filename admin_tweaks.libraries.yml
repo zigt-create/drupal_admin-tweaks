@@ -5,3 +5,7 @@ admin-assets:
             assets/admin.css: {}
     js:
         assets/admin.js: {}
+preview-assets:
+    css:
+        theme:
+            assets/preview.css: {}

@@ -1,0 +1,4 @@
+/* Hide the preview view mode selector */
+.node-preview-form-select .form-item-view-mode {
+    display: none;
+}
