@@ -1,10 +1,10 @@
-name: Est Digital Admin tweaks
+name: 'ZIGT Create: Admin tweaks'
 description: Adds some changes to the Drupal admin pages
-package: Est Digital
+package: ZIGT
 
 type: module
 core: 8.x
-core_version_requirement: ^8 || ^9
+core_version_requirement: ^8 || ^9 || ^10
 
 libraries:
   - admin_tweaks/admin-assets
