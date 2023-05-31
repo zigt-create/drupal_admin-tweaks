@@ -23,6 +23,10 @@ class ThemeNegotiator implements ThemeNegotiatorInterface {
       'user.reset',
       'user.reset.login',
       'user.reset.form',
+      // Email TFA.
+      'email_tfa.verifiy',
+      // TFA module.
+      'tfa.entry',
     ];
     return (in_array($route_match->getRouteName(), $possible_routes));
   }
